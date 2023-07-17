@@ -1,0 +1,428 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.blabla"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:2:3-64
+12-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:3:3-74
+13-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:3:20-72
+14    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+14-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:4:3-73
+14-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:4:20-71
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:5:3-62
+15-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:5:20-60
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:6:3-76
+16-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:6:20-74
+17
+18    <uses-feature
+18-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:7:3-82
+19        android:name="android.hardware.camera"
+19-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:7:17-55
+20        android:required="false" />
+20-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:7:56-80
+21    <uses-feature
+21-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:8:3-88
+22        android:name="android.hardware.camera.front"
+22-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:8:17-61
+23        android:required="false" />
+23-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:8:62-86
+24
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->[com.facebook.flipper:flipper:0.125.0] /home/adarsh/.gradle/caches/transforms-3/c04357f2d0647f74ce53dc7601bae1e2/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+25-->[com.facebook.flipper:flipper:0.125.0] /home/adarsh/.gradle/caches/transforms-3/c04357f2d0647f74ce53dc7601bae1e2/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+26-->[:react-native-community_netinfo] /home/adarsh/Desktop/BlaBlaCar/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+26-->[:react-native-community_netinfo] /home/adarsh/Desktop/BlaBlaCar/node_modules/@react-native-community/netinfo/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+27
+28    <queries>
+28-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-13:15
+29        <intent>
+29-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:18
+30            <action android:name="android.media.action.IMAGE_CAPTURE" />
+30-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-73
+30-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:21-70
+31        </intent>
+32        <!-- Needs to be explicitly declared on Android R+ -->
+33        <package android:name="com.google.android.apps.maps" />
+33-->[com.google.android.gms:play-services-maps:18.0.2] /home/adarsh/.gradle/caches/transforms-3/af1dc7392a16088c545a1c2c70c40ca4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+33-->[com.google.android.gms:play-services-maps:18.0.2] /home/adarsh/.gradle/caches/transforms-3/af1dc7392a16088c545a1c2c70c40ca4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+34    </queries>
+35
+36    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+36-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-81
+36-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:22-78
+37    <uses-permission android:name="android.permission.WAKE_LOCK" />
+37-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+37-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+38    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+38-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+38-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+39    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+39-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+39-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+40
+41    <uses-feature
+41-->[com.google.android.gms:play-services-maps:18.0.2] /home/adarsh/.gradle/caches/transforms-3/af1dc7392a16088c545a1c2c70c40ca4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+42        android:glEsVersion="0x00020000"
+42-->[com.google.android.gms:play-services-maps:18.0.2] /home/adarsh/.gradle/caches/transforms-3/af1dc7392a16088c545a1c2c70c40ca4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+43        android:required="true" />
+43-->[com.google.android.gms:play-services-maps:18.0.2] /home/adarsh/.gradle/caches/transforms-3/af1dc7392a16088c545a1c2c70c40ca4/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+44
+45    <application
+45-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:9:3-25:17
+46        android:name="com.blabla.MainApplication"
+46-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:9:16-47
+47        android:allowBackup="false"
+47-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:9:162-189
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.7.0] /home/adarsh/.gradle/caches/transforms-3/b9f490a21a8e61a4c253568cca2f8b58/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+49        android:debuggable="true"
+50        android:icon="@mipmap/ic_launcher"
+50-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:9:81-115
+51        android:label="@string/app_name"
+51-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:9:48-80
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:9:116-161
+53        android:theme="@style/AppTheme"
+53-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:9:190-221
+54        android:usesCleartextTraffic="true" >
+54-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/debug/AndroidManifest.xml:8:9-44
+55        <activity
+55-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/debug/AndroidManifest.xml:11:9-111
+56            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+56-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/debug/AndroidManifest.xml:11:19-83
+57            android:exported="false" />
+57-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/debug/AndroidManifest.xml:11:84-108
+58
+59        <meta-data
+59-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:10:5-119
+60            android:name="com.google.android.geo.API_KEY"
+60-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:10:16-61
+61            android:value="AIzaSyDUzn63K64-sXadyIwRJExCfMaicagwGq4" />
+61-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:10:62-117
+62
+63        <activity
+63-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:11:5-23:16
+64            android:name="com.blabla.MainActivity"
+64-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:11:15-43
+65            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+65-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:11:114-223
+66            android:exported="true"
+66-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:11:299-322
+67            android:label="@string/app_name"
+67-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:11:81-113
+68            android:launchMode="singleTask"
+68-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:11:224-255
+69            android:screenOrientation="portrait"
+69-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:11:44-80
+70            android:windowSoftInputMode="adjustResize" >
+70-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:11:256-298
+71            <intent-filter>
+71-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:13:7-16:23
+72                <action android:name="android.intent.action.MAIN" />
+72-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:14:9-60
+72-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:14:17-58
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:15:9-68
+74-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:15:19-66
+75            </intent-filter>
+76            <intent-filter>
+76-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:17:7-22:23
+77                <action android:name="android.intent.action.VIEW" />
+77-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:18:9-60
+77-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:18:17-58
+78
+79                <category android:name="android.intent.category.DEFAULT" />
+79-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:19:9-67
+79-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:19:19-65
+80                <category android:name="android.intent.category.BROWSABLE" />
+80-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:20:9-69
+80-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:20:19-67
+81
+82                <data android:scheme="localhost" />
+82-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:21:9-43
+82-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:21:15-41
+83            </intent-filter>
+84        </activity>
+85
+86        <uses-library
+86-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:24:5-83
+87            android:name="org.apache.http.legacy"
+87-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:24:19-56
+88            android:required="false" />
+88-->/home/adarsh/Desktop/BlaBlaCar/android/app/src/main/AndroidManifest.xml:24:57-81
+89
+90        <provider
+90-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-26:20
+91            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+91-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-94
+92            android:authorities="com.blabla.provider"
+92-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-60
+93            android:exported="false"
+93-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-37
+94            android:grantUriPermissions="true" >
+94-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-47
+95            <meta-data
+95-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-25:78
+96                android:name="android.support.FILE_PROVIDER_PATHS"
+96-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-67
+97                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+97-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-75
+98        </provider>
+99
+100        <activity
+100-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-30:72
+101            android:name="com.yalantis.ucrop.UCropActivity"
+101-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:13-60
+102            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+102-->[:react-native-image-crop-picker] /home/adarsh/Desktop/BlaBlaCar/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-69
+103
+104        <provider
+104-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+105            android:name="androidx.startup.InitializationProvider"
+105-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+106            android:authorities="com.blabla.androidx-startup"
+106-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+107            android:exported="false" >
+107-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+108            <meta-data
+108-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+109                android:name="androidx.work.WorkManagerInitializer"
+109-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+110                android:value="androidx.startup" />
+110-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+111            <meta-data
+111-->[androidx.emoji2:emoji2:1.0.0] /home/adarsh/.gradle/caches/transforms-3/86215e4a42cdf432ed3d0e254ec2e6ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+112                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+112-->[androidx.emoji2:emoji2:1.0.0] /home/adarsh/.gradle/caches/transforms-3/86215e4a42cdf432ed3d0e254ec2e6ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+113                android:value="androidx.startup" />
+113-->[androidx.emoji2:emoji2:1.0.0] /home/adarsh/.gradle/caches/transforms-3/86215e4a42cdf432ed3d0e254ec2e6ae/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+114            <meta-data
+114-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/adarsh/.gradle/caches/transforms-3/d2e9b4084f254f1daac4e46d00bc0d7b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+115                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+115-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/adarsh/.gradle/caches/transforms-3/d2e9b4084f254f1daac4e46d00bc0d7b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+116                android:value="androidx.startup" />
+116-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/adarsh/.gradle/caches/transforms-3/d2e9b4084f254f1daac4e46d00bc0d7b/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+117        </provider>
+118
+119        <service
+119-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+120            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+120-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+121            android:directBootAware="false"
+121-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+122            android:enabled="@bool/enable_system_alarm_service_default"
+122-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+123            android:exported="false" />
+123-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+124        <service
+124-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+125            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+125-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+126            android:directBootAware="false"
+126-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+127            android:enabled="@bool/enable_system_job_service_default"
+127-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+128            android:exported="true"
+128-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+129            android:permission="android.permission.BIND_JOB_SERVICE" />
+129-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+130        <service
+130-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+131            android:name="androidx.work.impl.foreground.SystemForegroundService"
+131-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+132            android:directBootAware="false"
+132-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+133            android:enabled="@bool/enable_system_foreground_service_default"
+133-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+134            android:exported="false" />
+134-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+135
+136        <receiver
+136-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+137            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+137-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+138            android:directBootAware="false"
+138-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+139            android:enabled="true"
+139-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+140            android:exported="false" />
+140-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+141        <receiver
+141-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+142            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+142-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+143            android:directBootAware="false"
+143-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+144            android:enabled="false"
+144-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+145            android:exported="false" >
+145-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+146            <intent-filter>
+146-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+147                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+147-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+147-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+148                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+148-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+148-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+149            </intent-filter>
+150        </receiver>
+151        <receiver
+151-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+152            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+152-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+153            android:directBootAware="false"
+153-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+154            android:enabled="false"
+154-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+155            android:exported="false" >
+155-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+156            <intent-filter>
+156-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+157                <action android:name="android.intent.action.BATTERY_OKAY" />
+157-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+157-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+158                <action android:name="android.intent.action.BATTERY_LOW" />
+158-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+158-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+159            </intent-filter>
+160        </receiver>
+161        <receiver
+161-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+162            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+162-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+163            android:directBootAware="false"
+163-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+164            android:enabled="false"
+164-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+165            android:exported="false" >
+165-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+166            <intent-filter>
+166-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+167                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+167-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+167-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+168                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+168-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+168-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+169            </intent-filter>
+170        </receiver>
+171        <receiver
+171-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+172            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+172-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+173            android:directBootAware="false"
+173-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+174            android:enabled="false"
+174-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+175            android:exported="false" >
+175-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+176            <intent-filter>
+176-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+177                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+177-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+177-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+178            </intent-filter>
+179        </receiver>
+180        <receiver
+180-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+181            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+181-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+182            android:directBootAware="false"
+182-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+183            android:enabled="false"
+183-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+184            android:exported="false" >
+184-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+185            <intent-filter>
+185-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+186                <action android:name="android.intent.action.BOOT_COMPLETED" />
+186-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+186-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+187                <action android:name="android.intent.action.TIME_SET" />
+187-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+187-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+188                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+188-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+188-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+189            </intent-filter>
+190        </receiver>
+191        <receiver
+191-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+192            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+192-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+193            android:directBootAware="false"
+193-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+194            android:enabled="@bool/enable_system_alarm_service_default"
+194-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+195            android:exported="false" >
+195-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+196            <intent-filter>
+196-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+197                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+197-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+197-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+198            </intent-filter>
+199        </receiver>
+200        <receiver
+200-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+201            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+201-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+202            android:directBootAware="false"
+202-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+203            android:enabled="true"
+203-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+204            android:exported="true"
+204-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+205            android:permission="android.permission.DUMP" >
+205-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+206            <intent-filter>
+206-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+207                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+207-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+207-->[androidx.work:work-runtime:2.7.1] /home/adarsh/.gradle/caches/transforms-3/576270e00f504bcd6de7f50fd19a5f3a/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+208            </intent-filter>
+209        </receiver>
+210
+211        <service
+211-->[androidx.room:room-runtime:2.2.5] /home/adarsh/.gradle/caches/transforms-3/a9884ca2cca8def63ce7dd7102ee4123/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+212            android:name="androidx.room.MultiInstanceInvalidationService"
+212-->[androidx.room:room-runtime:2.2.5] /home/adarsh/.gradle/caches/transforms-3/a9884ca2cca8def63ce7dd7102ee4123/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+213            android:directBootAware="true"
+213-->[androidx.room:room-runtime:2.2.5] /home/adarsh/.gradle/caches/transforms-3/a9884ca2cca8def63ce7dd7102ee4123/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+214            android:exported="false" />
+214-->[androidx.room:room-runtime:2.2.5] /home/adarsh/.gradle/caches/transforms-3/a9884ca2cca8def63ce7dd7102ee4123/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+215
+216        <activity
+216-->[com.google.android.gms:play-services-base:18.1.0] /home/adarsh/.gradle/caches/transforms-3/56de8fd2ec0b1c76977031642f8d34e5/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+217            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+217-->[com.google.android.gms:play-services-base:18.1.0] /home/adarsh/.gradle/caches/transforms-3/56de8fd2ec0b1c76977031642f8d34e5/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+218            android:exported="false"
+218-->[com.google.android.gms:play-services-base:18.1.0] /home/adarsh/.gradle/caches/transforms-3/56de8fd2ec0b1c76977031642f8d34e5/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+219            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+219-->[com.google.android.gms:play-services-base:18.1.0] /home/adarsh/.gradle/caches/transforms-3/56de8fd2ec0b1c76977031642f8d34e5/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+220
+221        <meta-data
+221-->[com.google.android.gms:play-services-basement:18.1.0] /home/adarsh/.gradle/caches/transforms-3/0ca62738302d850ea2045fc28b58b316/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+222            android:name="com.google.android.gms.version"
+222-->[com.google.android.gms:play-services-basement:18.1.0] /home/adarsh/.gradle/caches/transforms-3/0ca62738302d850ea2045fc28b58b316/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+223            android:value="@integer/google_play_services_version" />
+223-->[com.google.android.gms:play-services-basement:18.1.0] /home/adarsh/.gradle/caches/transforms-3/0ca62738302d850ea2045fc28b58b316/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+224    </application>
+225
+226</manifest>
